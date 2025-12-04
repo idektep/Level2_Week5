@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <DHT.h>
-#define DHTPIN ____     //Add pin DHT 23
+#define DHTPIN ____     //Add pin DHT (23)
 #define Buzzer_Pin ____ //Add pin Buzzer
 
 #define DHTTYPE DHT22
