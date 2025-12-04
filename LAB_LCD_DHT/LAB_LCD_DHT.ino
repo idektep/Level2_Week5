@@ -11,7 +11,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
   dht.begin();
-  lcd.begin();
+  lcd.init();
   lcd.backlight();  //เปิดไฟ backlight
   lcd.setCursor(1, 0);
   lcd.print("Idektep Cobot");
