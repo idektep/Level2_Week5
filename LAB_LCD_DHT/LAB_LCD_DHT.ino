@@ -33,7 +33,7 @@ void loop() {
 
   lcd.setCursor(0, 0);
   lcd.print("Temp :" + String(temp, 1) + "c");
-  lcd.setCursor(1, 0);
+  lcd.setCursor(0, 1);
   lcd.print("Humi :" + String(humi, 1) + "%");
   delay(500);
 }
